@@ -1,0 +1,13 @@
+This is a supplementary material to the following article:
+"Using Deep Generative Models for Glossy Appearance Synthesis and Exploration"
+authored by Abhinav Reddy Nimma and Davit Gigilashvili. 
+Presented at EUVIP 2023 - the 11th European Workshop on Visual Information Processing.
+The materials can be used freely as long as the attribution is included and the article is cited.
+
+Images from the training dataset are given in Training_Dataset.zip file. 
+The Mitsuba template XML files for rendering these images are given in Mitsuba_Templates.zip
+Mitsuba_Templates.zip includes four files:
+    scene1.xml - Mitsuba scene file for rendering objects with subsurface light transport.
+    scene1.xml - Mitsuba scene file for rendering opaque objects using Ward's model.
+    envmap.exr - environment map used in the scene.
+    matpreview.serialized - checherboard texture object used in the scene.
